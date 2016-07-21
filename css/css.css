@@ -279,12 +279,22 @@ letter-spacing: 0.1px;
 	padding-left: 6px;
 	padding-right: 4px;
 }
+.about>a, .pay>a, .delivery>a, .article>a, .contacts>a {
+	text-decoration: none;
+	font-size: 13.64px;
+	color: #b1bcc0;
+}
+
+
 
 .menu li:hover {
-	color: white;
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
 	border-radius: 170px;
 }
+.menu li a:hover {
+	color: white;
+}
+
 
 .cart{
 	float:right;
@@ -320,6 +330,11 @@ letter-spacing: 0.1px;
 .cart span:nth-child(4) {
 	margin-right: 2px;
 	color: #8a9296;
+}
+
+.cart img {
+		margin-top: 7px;
+		margin-right: 5px;
 }
 
 .forms {
@@ -704,7 +719,7 @@ letter-spacing: 0.3px;
 }
 
 footer>nav>.allabout a{
-color: #52abcb;
+color: #bec6c9;
 font-size: 12px;
 font-family: Arial;
 text-decoration:none;
@@ -756,6 +771,10 @@ color: #bec6c9;
 font-size: 12px;
 font-family: Arial;
 text-decoration:none;
+}
+
+footer>nav>.allabout a:hover, footer>nav>.delivery a:hover:hover, footer>nav>.articles a:hover, footer>nav>.contacts a:hover{
+	color: #52abcb;
 }
 
 footer>span{
